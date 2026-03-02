@@ -1,0 +1,101 @@
+_wandb:
+    value:
+        cli_version: 0.25.0
+        e:
+            pjh9y5xv5d1wwtmpa6txtwzoleds278v:
+                cpu_count: 48
+                cpu_count_logical: 48
+                cudaVersion: "13.0"
+                disk:
+                    /:
+                        total: "42949664768"
+                        used: "25758470144"
+                email: alho@uoregon.edu
+                executable: /projects/bgmp/shared/Bi625/ML_Assignment/Conda_Envs/HumpbackClassifierEnv/bin/python
+                git:
+                    commit: 406258423696b958b0bb79ac77d73f2ba530a22d
+                    remote: git@github.com:AlexHolly007/HappyWhaleClassifier.git
+                gpu: NVIDIA A100 80GB PCIe
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ampere
+                      memoryTotal: "85899345920"
+                      name: NVIDIA A100 80GB PCIe
+                      uuid: GPU-8cb802c5-93e7-f383-b618-da218eca502b
+                host: n0163.talapas.uoregon.edu
+                memory:
+                    total: "540093321216"
+                os: Linux-4.18.0-553.69.1.el8_10.x86_64-x86_64-with-glibc2.28
+                program: <python with no main file>
+                python: CPython 3.13.1
+                root: /gpfs/projects/bgmp/alho/HappyWhaleClassifier
+                slurm:
+                    cluster_name: talapas
+                    conf: /var/spool/slurm/conf-cache/slurm.conf
+                    cpus_on_node: "6"
+                    cpus_per_task: "6"
+                    gpus_on_node: "1"
+                    gtids: "0"
+                    job_account: bgmp
+                    job_cpus_per_node: "6"
+                    job_end_time: "1772417638"
+                    job_gid: "131"
+                    job_gpus: "7"
+                    job_id: "42443056"
+                    job_name: sys/dashboard/sys/jupyter
+                    job_nodelist: n0163
+                    job_num_nodes: "1"
+                    job_partition: gpu
+                    job_qos: normal
+                    job_start_time: "1772410438"
+                    job_uid: "288758"
+                    job_user: alho
+                    jobid: "42443056"
+                    localid: "0"
+                    mem_per_node: "32768"
+                    nnodes: "1"
+                    nodeid: "0"
+                    nodelist: n0163
+                    prio_process: "0"
+                    procid: "0"
+                    submit_dir: /var/www/ood/apps/sys/dashboard
+                    submit_host: ood1.talapas.uoregon.edu
+                    task_pid: "26173"
+                    tasks_per_node: "1"
+                    topology_addr: ibcore[1-6].ib13.n0163
+                    topology_addr_pattern: switch.switch.node
+                    tres_per_task: cpu=6
+                startedAt: "2026-03-02T00:30:17.855888Z"
+                writerId: pjh9y5xv5d1wwtmpa6txtwzoleds278v
+        m: []
+        python_version: 3.13.1
+        session_history: code/_session_history.ipynb
+        t:
+            "1":
+                - 1
+                - 5
+                - 41
+                - 53
+            "2":
+                - 1
+                - 5
+                - 41
+                - 53
+            "3":
+                - 2
+                - 13
+                - 16
+            "4": 3.13.1
+            "5": 0.25.0
+            "8":
+                - 1
+            "12": 0.25.0
+            "13": linux-x86_64
+architecture:
+    value: CNN
+dataset:
+    value: Species
+epochs:
+    value: 5
+learning rate:
+    value: 0.001

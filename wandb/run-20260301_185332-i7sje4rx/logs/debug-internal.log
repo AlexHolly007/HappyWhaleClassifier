@@ -1,0 +1,9 @@
+{"time":"2026-03-01T18:53:33.990924004-08:00","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-01T18:53:34.42196385-08:00","level":"INFO","msg":"stream: created new stream","id":"i7sje4rx"}
+{"time":"2026-03-01T18:53:34.422113152-08:00","level":"INFO","msg":"handler: started","stream_id":"i7sje4rx"}
+{"time":"2026-03-01T18:53:34.422819145-08:00","level":"INFO","msg":"stream: started","id":"i7sje4rx"}
+{"time":"2026-03-01T18:53:34.422829173-08:00","level":"INFO","msg":"writer: started","stream_id":"i7sje4rx"}
+{"time":"2026-03-01T18:53:34.422843641-08:00","level":"INFO","msg":"sender: started","stream_id":"i7sje4rx"}
+{"time":"2026-03-01T18:53:34.948932691-08:00","level":"WARN","msg":"handleCodeSave: program relative path is empty"}
+{"time":"2026-03-01T19:00:10.751674503-08:00","level":"ERROR","msg":"api: HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/files/BGMP_HappyWhale/BGMP_HappyWhale/i7sje4rx/file_stream"}
+{"time":"2026-03-01T19:00:10.751772949-08:00","level":"ERROR+4","msg":"filestream: fatal error: filestream: failed to upload: 404 Not Found url=https://api.wandb.ai/files/BGMP_HappyWhale/BGMP_HappyWhale/i7sje4rx/file_stream: {\"error\":\"run BGMP_HappyWhale/i7sje4rx not found while streaming file\"}"}
