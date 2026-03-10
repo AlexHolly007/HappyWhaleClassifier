@@ -1,0 +1,63 @@
+{
+  "os":  "Linux-4.18.0-553.69.1.el8_10.x86_64-x86_64-with-glibc2.28",
+  "python":  "CPython 3.11.14",
+  "startedAt":  "2026-03-10T04:39:53.537236Z",
+  "program":  "/gpfs/projects/bgmp/alho/HappyWhaleClassifier/Part1.py",
+  "codePath":  "Part1.py",
+  "codePathLocal":  "Part1.py",
+  "git":  {
+    "remote":  "git@github.com:AlexHolly007/HappyWhaleClassifier.git",
+    "commit":  "4b3ca16c90fa6c180ea8e64aa9e24f04e6eb3f76"
+  },
+  "email":  "alho@uoregon.edu",
+  "root":  "/gpfs/projects/bgmp/alho/HappyWhaleClassifier",
+  "host":  "n0149.talapas.uoregon.edu",
+  "executable":  "/gpfs/home/alho/miniforge3/envs/torch_whale/bin/python3",
+  "cpu_count":  48,
+  "cpu_count_logical":  48,
+  "disk":  {
+    "/":  {
+      "total":  "42949664768",
+      "used":  "25761705984"
+    }
+  },
+  "memory":  {
+    "total":  "540092194816"
+  },
+  "slurm":  {
+    "cluster_name":  "talapas",
+    "conf":  "/var/spool/slurm/conf-cache/slurm.conf",
+    "cpus_on_node":  "6",
+    "cpus_per_task":  "6",
+    "gtids":  "0",
+    "job_account":  "bgmp",
+    "job_cpus_per_node":  "6",
+    "job_end_time":  "1773146110",
+    "job_gid":  "131",
+    "job_id":  "42747778",
+    "job_name":  "part1",
+    "job_nodelist":  "n0149",
+    "job_num_nodes":  "1",
+    "job_partition":  "gpu",
+    "job_qos":  "normal",
+    "job_start_time":  "1773117310",
+    "job_uid":  "288758",
+    "job_user":  "alho",
+    "jobid":  "42747778",
+    "localid":  "0",
+    "mem_per_node":  "32768",
+    "nnodes":  "1",
+    "nodeid":  "0",
+    "nodelist":  "n0149",
+    "prio_process":  "0",
+    "procid":  "0",
+    "submit_dir":  "/gpfs/projects/bgmp/alho/HappyWhaleClassifier",
+    "submit_host":  "login4.talapas.uoregon.edu",
+    "task_pid":  "3546672",
+    "tasks_per_node":  "1",
+    "topology_addr":  "ibcore[1-6].ib13.n0149",
+    "topology_addr_pattern":  "switch.switch.node",
+    "tres_per_task":  "cpu=6"
+  },
+  "writerId":  "cge95tve0nf9ihng52y2hjaabaew4v59"
+}
